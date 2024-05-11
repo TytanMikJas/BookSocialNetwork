@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/book_social_network
-    username: tytan
-    password: tytan
+    username: username
+    password: password
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -19,18 +19,23 @@ spring:
     username: tytan
     password: tytan
     properties:
-        mail:
-            smtp:
-              trust: "*"
-            auth: true
-            starttls:
-              enable: true
-            connectiontimeout: 5000
-            timeout: 3000
-            writetimeout: 5000
+      mail:
+        smtp:
+          trust: "*"
+        auth: true
+        starttls:
+          enabled: true
+        connectiontimeout: 5000
+        timeout: 3000
+        writetimeout: 5000
 
 application:
   security:
-      jwt:
-        secret-key: F9F8B9D1656F3914FD26393A9FAA2
-        expiration: 86400000
+    jwt:
+      secret-key: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+      expiration: 86400000
+  mail:
+    frontend:
+      activation-url: http://localhost:4200/activate-account
+server:
+  port: 8088

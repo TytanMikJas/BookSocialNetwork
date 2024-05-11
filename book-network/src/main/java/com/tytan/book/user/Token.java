@@ -3,7 +3,7 @@ package com.tytan.book.user;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
@@ -16,9 +16,9 @@ public class Token {
     @GeneratedValue
     private Integer id;
     private String token;
-    private LocalDate createdAt;
-    private LocalDate expiresAt;
-    private LocalDate validatedAt;
+    private LocalDateTime createdAt;
+    private LocalDateTime expiresAt;
+    private LocalDateTime validatedAt;
 
     @ManyToOne
     @JoinColumn(name="userId", nullable = false)
