@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="Init of Book social network project" />
+    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="Init of Book social network project">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +31,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/TytanMikJas/BookSocialNetwork&quot;,
+    &quot;url&quot;: &quot;https://github.com/TytanMikJas/BookSocialNetwork.git&quot;,
     &quot;accountId&quot;: &quot;b50fa082-d70b-4b21-b1b6-070f780a1841&quot;
   }
 }</component>
@@ -45,19 +48,27 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.BookNetworkApiApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IntelliJ/Projects/book-social-network",
+    "last_opened_file_path": "D:/IntelliJ/Projects/book-social-network/book-network",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="BookNetworkApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="book-network" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tytan.book.BookNetworkApiApplication" />
       <method v="2">
@@ -85,6 +96,10 @@
       <workItem from="1715436121232" duration="39000" />
       <workItem from="1715436200822" duration="102000" />
       <workItem from="1715436310348" duration="150000" />
+      <workItem from="1715436471551" duration="221000" />
+      <workItem from="1715436725956" duration="31000" />
+      <workItem from="1715436759804" duration="57000" />
+      <workItem from="1715436840828" duration="409000" />
     </task>
     <task id="LOCAL-00001" summary="Init of Book social network project">
       <option name="closed" value="true" />
@@ -94,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715435862371</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Init of Book social network project">
+      <option name="closed" value="true" />
+      <created>1715436546625</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715436546625</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
