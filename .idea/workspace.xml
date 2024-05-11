@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="Init of Book social network project">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="git ignore added">
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/role/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/BookNetworkApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/BookNetworkApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/user/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +40,19 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2gK49j1cQ2XDqFbtivyfD9zqASv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.BookNetworkApiApplication.executor": "Run",
@@ -61,7 +68,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -99,7 +106,7 @@
       <workItem from="1715436471551" duration="221000" />
       <workItem from="1715436725956" duration="31000" />
       <workItem from="1715436759804" duration="57000" />
-      <workItem from="1715436840828" duration="409000" />
+      <workItem from="1715436840828" duration="2912000" />
     </task>
     <task id="LOCAL-00001" summary="Init of Book social network project">
       <option name="closed" value="true" />
@@ -117,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715436546625</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="git ignore added">
+      <option name="closed" value="true" />
+      <created>1715437554713</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715437554713</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +151,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init of Book social network project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init of Book social network project" />
+    <MESSAGE value="git ignore added" />
+    <option name="LAST_COMMIT_MESSAGE" value="git ignore added" />
   </component>
 </project>
