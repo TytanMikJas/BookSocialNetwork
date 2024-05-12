@@ -3,9 +3,17 @@ Book Social Network is a full-stack application that enables users to manage the
 
 # Features
 User Registration: Users can register for a new account.
+
 Email Validation: Accounts are activated using secure email validation codes.
+
 User Authentication: Existing users can log in to their accounts securely.
+
 Book Management: Users can create, update, share, and archive their books.
+
 Book Borrowing: Implements necessary checks to determine if a book is borrowable.
+
 Book Returning: Users can return borrowed books.
+
 Book Return Approval: Functionality to approve book returns.
+
+The repo was created thanks to a course by Bouali Ali and is followed by me, because I want to learn new backend technology and frontend technology :)
