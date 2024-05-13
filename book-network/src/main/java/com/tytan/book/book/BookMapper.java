@@ -1,5 +1,6 @@
 package com.tytan.book.book;
 
+import com.tytan.book.history.BookTransactionHistory;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -27,6 +28,18 @@ public class BookMapper {
                 .shareable(book.isShareable())
                 .owner(book.getOwner().getUsername())
                 //.cover()
+                .build();
+    }
+
+    public BorrowedBookResponse toBorrowedBookResponse(BookTransactionHistory bookHistory) {
+        return BorrowedBookResponse.builder()
+                .id(bookHistory.getBook().getId())
+                .title(bookHistory.getBook().getTitle())
+                .authorName(bookHistory.getBook().getAuthorName())
+                .isbn(bookHistory.getBook().getIsbn())
+                .rate(bookHistory.getBook().getRate())
+                .returned(bookHistory.isReturned())
+                .returnApproved(bookHistory.isReturnApproved())
                 .build();
     }
 }
