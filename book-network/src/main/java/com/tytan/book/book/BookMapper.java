@@ -1,5 +1,6 @@
 package com.tytan.book.book;
 
+import com.tytan.book.file.FileUtils;
 import com.tytan.book.history.BookTransactionHistory;
 import org.springframework.stereotype.Service;
 
@@ -27,7 +28,7 @@ public class BookMapper {
                 .archived(book.isArchived())
                 .shareable(book.isShareable())
                 .owner(book.getOwner().getUsername())
-                //.cover()
+                .cover(FileUtils.readFileFromLocation(book.getBookCover()))
                 .build();
     }
 

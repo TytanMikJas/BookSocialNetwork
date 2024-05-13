@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="saveBook, findBookById, findAllBooks, findAllBooksByOwner implemented for Book Controller">
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/book/BorrowedBookResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/history/BookTransactionHistoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="borrowBook, returnBook, approveReturn">
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/file/FileStorageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/book/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/book/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/book/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/book/BookMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/book/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/book/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +84,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tytan.book.file" />
+      <recent name="com.tytan.book.exception" />
       <recent name="com.tytan.book.book" />
       <recent name="com.tytan.book.common" />
       <recent name="com.tytan.book.handler" />
-      <recent name="com.tytan.book.auth" />
-      <recent name="com.tytan.book.email" />
     </key>
   </component>
   <component name="RunManager">
@@ -133,7 +131,7 @@
       <workItem from="1715597306517" duration="5215000" />
       <workItem from="1715613381699" duration="1146000" />
       <workItem from="1715614668763" duration="5995000" />
-      <workItem from="1715628474524" duration="3127000" />
+      <workItem from="1715628474524" duration="6147000" />
     </task>
     <task id="LOCAL-00001" summary="Init of Book social network project">
       <option name="closed" value="true" />
@@ -207,7 +205,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715630624539</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="FindBorrowedBooks, findALlReturnedBooks, updateShareableStatus, updateArchivedStatus">
+      <option name="closed" value="true" />
+      <created>1715632391524</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715632391524</updated>
+    </task>
+    <task id="LOCAL-00011" summary="borrowBook, returnBook, approveReturn">
+      <option name="closed" value="true" />
+      <created>1715633783505</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715633783505</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +247,8 @@
     <MESSAGE value="Clean error logging" />
     <MESSAGE value="finished database structure" />
     <MESSAGE value="saveBook, findBookById, findAllBooks, findAllBooksByOwner implemented for Book Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="saveBook, findBookById, findAllBooks, findAllBooksByOwner implemented for Book Controller" />
+    <MESSAGE value="FindBorrowedBooks, findALlReturnedBooks, updateShareableStatus, updateArchivedStatus" />
+    <MESSAGE value="borrowBook, returnBook, approveReturn" />
+    <option name="LAST_COMMIT_MESSAGE" value="borrowBook, returnBook, approveReturn" />
   </component>
 </project>
