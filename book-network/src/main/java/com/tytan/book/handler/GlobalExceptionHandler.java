@@ -1,6 +1,7 @@
 package com.tytan.book.handler;
 
 import jakarta.mail.MessagingException;
+import lombok.extern.log4j.Log4j2;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.DisabledException;
@@ -18,6 +19,7 @@ import static org.springframework.http.HttpStatus.BAD_REQUEST;
 import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
 
 @RestControllerAdvice
+@Log4j2
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(LockedException.class)
@@ -87,7 +89,7 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ExceptionResponse> handleException(Exception exp) {
-        exp.printStackTrace();
+        log.info(exp);
 
         return ResponseEntity
                 .status(INTERNAL_SERVER_ERROR)
