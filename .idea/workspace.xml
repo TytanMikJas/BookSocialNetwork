@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="JWT Security implementation">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/auth/AuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/auth/AuthenticationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/auth/AuthenticationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/auth/AuthenticationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/auth/RegistrationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/email/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/email/EmailTemplateName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/resources/templates/activate_account.html" afterDir="false" />
+    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="Implemented the authentication flow">
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/handler/BusinessErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/handler/ExceptionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/handler/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/BookNetworkApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/BookNetworkApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/config/BeansConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/config/BeansConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/security/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/security/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/user/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/user/Token.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -71,7 +58,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.BookNetworkApiApplication.executor": "Run",
+    "Spring Boot.BookNetworkApiApplication.executor": "Debug",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
@@ -95,6 +82,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tytan.book.handler" />
       <recent name="com.tytan.book.auth" />
       <recent name="com.tytan.book.email" />
       <recent name="com.tytan.book.security" />
@@ -135,7 +123,9 @@
       <workItem from="1715436725956" duration="31000" />
       <workItem from="1715436759804" duration="57000" />
       <workItem from="1715436840828" duration="2912000" />
-      <workItem from="1715439801377" duration="14386000" />
+      <workItem from="1715439801377" duration="14739000" />
+      <workItem from="1715530178498" duration="1843000" />
+      <workItem from="1715597306517" duration="1910000" />
     </task>
     <task id="LOCAL-00001" summary="Init of Book social network project">
       <option name="closed" value="true" />
@@ -177,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715445805334</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implemented the authentication flow">
+      <option name="closed" value="true" />
+      <created>1715465212788</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715465212788</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +197,7 @@
     <MESSAGE value="git ignore added" />
     <MESSAGE value="User, Role and Token classes created with basic repositories" />
     <MESSAGE value="JWT Security implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="JWT Security implementation" />
+    <MESSAGE value="Implemented the authentication flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the authentication flow" />
   </component>
 </project>
