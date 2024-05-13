@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="borrowBook, returnBook, approveReturn">
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/file/FileStorageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/book/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/book/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/book/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/book/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/resources/application-dev.yml" afterDir="false" />
+    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="File upload">
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/feedback/FeedbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/feedback/FeedbackMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/feedback/FeedbackRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/feedback/FeedbackRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/feedback/FeedbackService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +21,8 @@
       <list>
         <option value="Enum" />
         <option value="Record" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -84,11 +85,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tytan.book.feedback" />
       <recent name="com.tytan.book.file" />
       <recent name="com.tytan.book.exception" />
       <recent name="com.tytan.book.book" />
       <recent name="com.tytan.book.common" />
-      <recent name="com.tytan.book.handler" />
     </key>
   </component>
   <component name="RunManager">
@@ -131,7 +132,7 @@
       <workItem from="1715597306517" duration="5215000" />
       <workItem from="1715613381699" duration="1146000" />
       <workItem from="1715614668763" duration="5995000" />
-      <workItem from="1715628474524" duration="6147000" />
+      <workItem from="1715628474524" duration="8090000" />
     </task>
     <task id="LOCAL-00001" summary="Init of Book social network project">
       <option name="closed" value="true" />
@@ -221,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715633783505</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="File upload">
+      <option name="closed" value="true" />
+      <created>1715635603312</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715635603312</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +258,7 @@
     <MESSAGE value="saveBook, findBookById, findAllBooks, findAllBooksByOwner implemented for Book Controller" />
     <MESSAGE value="FindBorrowedBooks, findALlReturnedBooks, updateShareableStatus, updateArchivedStatus" />
     <MESSAGE value="borrowBook, returnBook, approveReturn" />
-    <option name="LAST_COMMIT_MESSAGE" value="borrowBook, returnBook, approveReturn" />
+    <MESSAGE value="File upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="File upload" />
   </component>
 </project>
