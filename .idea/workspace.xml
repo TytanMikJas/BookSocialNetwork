@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="File upload">
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/feedback/FeedbackController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/feedback/FeedbackMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/feedback/FeedbackRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/feedback/FeedbackRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/feedback/FeedbackService.java" afterDir="false" />
+    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="Feedback init">
+      <change afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/config/OpenApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +18,8 @@
       <list>
         <option value="Enum" />
         <option value="Record" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -132,7 +129,7 @@
       <workItem from="1715597306517" duration="5215000" />
       <workItem from="1715613381699" duration="1146000" />
       <workItem from="1715614668763" duration="5995000" />
-      <workItem from="1715628474524" duration="8090000" />
+      <workItem from="1715628474524" duration="9035000" />
     </task>
     <task id="LOCAL-00001" summary="Init of Book social network project">
       <option name="closed" value="true" />
@@ -230,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715635603312</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Feedback init">
+      <option name="closed" value="true" />
+      <created>1715637198498</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715637198498</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +264,7 @@
     <MESSAGE value="FindBorrowedBooks, findALlReturnedBooks, updateShareableStatus, updateArchivedStatus" />
     <MESSAGE value="borrowBook, returnBook, approveReturn" />
     <MESSAGE value="File upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="File upload" />
+    <MESSAGE value="Feedback init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feedback init" />
   </component>
 </project>
