@@ -4,76 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="Generated HTTP services using open-api">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b82f8ee-52d9-4b26-a182-492146ca38a7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0b82f8ee-52d9-4b26-a182-492146ca38a7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b82f8ee-52d9-4b26-a182-492146ca38a7/storage_v2/_src_/database/book_social_network.cj-blA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0b82f8ee-52d9-4b26-a182-492146ca38a7/storage_v2/_src_/database/book_social_network.cj-blA/schema/public.abK9xQ.meta" afterDir="false" />
+    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="re-init of angular">
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/openapi/openapi.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/server.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.config.server.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/api-configuration.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/api.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/base-service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/authentication/authenticate.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/authentication/confirm.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/authentication/register.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/approve-return.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/borrow-book.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/find-all-books-by-owner.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/find-all-books.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/find-all-borrowed-books.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/find-all-returned-books.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/find-book-by-id.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/return-book.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/save-book.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/update-archived-status.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/update-shareable-status.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/book/upload-book-cover.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/feedback/find-all-feedbacks-by-book.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/fn/feedback/save-feedback.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/models.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/models/authentication-request.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/models/authentication-response.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/models/book-request.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/models/book-response.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/models/borrowed-book-response.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/models/feedback-request.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/models/feedback-response.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/models/page-response-book-response.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/models/page-response-borrowed-book-response.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/models/page-response-feedback-response.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/models/registration-request.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/request-builder.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/services.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/services/authentication.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/services/book.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/services/feedback.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/services/strict-http-response.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/main.server.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/openapi/openapi.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +202,7 @@
       <workItem from="1718012822099" duration="1661000" />
       <workItem from="1718457161198" duration="75000" />
       <workItem from="1718457298269" duration="5376000" />
-      <workItem from="1718462907033" duration="1140000" />
+      <workItem from="1718462907033" duration="2825000" />
     </task>
     <task id="LOCAL-00001" summary="Init of Book social network project">
       <option name="closed" value="true" />
@@ -403,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718461277064</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="re-init of angular">
+      <option name="closed" value="true" />
+      <created>1718464221906</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1718464221906</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,6 +383,7 @@
     <MESSAGE value="Angular init" />
     <MESSAGE value="Angular init V2" />
     <MESSAGE value="Generated HTTP services using open-api" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generated HTTP services using open-api" />
+    <MESSAGE value="re-init of angular" />
+    <option name="LAST_COMMIT_MESSAGE" value="re-init of angular" />
   </component>
 </project>
