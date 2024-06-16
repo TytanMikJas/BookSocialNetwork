@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="finished registration impl">
+    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="finished account activation impl">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/pages/activate-account/activate-account.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/pages/activate-account/activate-account.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/pages/activate-account/activate-account.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/pages/activate-account/activate-account.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/pages/activate-account/activate-account.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/pages/activate-account/activate-account.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +201,7 @@
       <workItem from="1718012822099" duration="1661000" />
       <workItem from="1718457161198" duration="75000" />
       <workItem from="1718457298269" duration="5376000" />
-      <workItem from="1718462907033" duration="14774000" />
+      <workItem from="1718462907033" duration="17024000" />
     </task>
     <task id="LOCAL-00001" summary="Init of Book social network project">
       <option name="closed" value="true" />
@@ -375,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718551519136</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="finished account activation impl">
+      <option name="closed" value="true" />
+      <created>1718552649050</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1718552649050</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,6 +418,7 @@
     <MESSAGE value="generated the http services using open api" />
     <MESSAGE value="Finished Login impl" />
     <MESSAGE value="finished registration impl" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished registration impl" />
+    <MESSAGE value="finished account activation impl" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished account activation impl" />
   </component>
 </project>
