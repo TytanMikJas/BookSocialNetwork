@@ -2,7 +2,7 @@ package com.tytan.book.handler;
 
 import com.tytan.book.exception.OperationNotPermittedException;
 import jakarta.mail.MessagingException;
-import lombok.extern.log4j.Log4j2;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.DisabledException;
@@ -15,12 +15,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 import static com.tytan.book.handler.BusinessErrorCode.*;
-import static org.ietf.jgss.GSSException.UNAUTHORIZED;
-import static org.springframework.http.HttpStatus.BAD_REQUEST;
-import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
+import static org.springframework.http.HttpStatus.*;
 
 @RestControllerAdvice
-@Log4j2
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(LockedException.class)
@@ -50,14 +47,14 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(BadCredentialsException.class)
-    public ResponseEntity<ExceptionResponse> handleException(BadCredentialsException exp) {
+    public ResponseEntity<ExceptionResponse> handleException() {
         return ResponseEntity
                 .status(UNAUTHORIZED)
                 .body(
                         ExceptionResponse.builder()
                                 .businessErrorCode(BAD_CREDENTIALS.getCode())
                                 .businessErrorDescription(BAD_CREDENTIALS.getDescription())
-                                .error(BAD_CREDENTIALS.getDescription())
+                                .error("Login and / or Password is incorrect")
                                 .build()
                 );
     }
@@ -90,7 +87,6 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ExceptionResponse> handleException(Exception exp) {
-        log.info(exp);
 
         return ResponseEntity
                 .status(INTERNAL_SERVER_ERROR)
