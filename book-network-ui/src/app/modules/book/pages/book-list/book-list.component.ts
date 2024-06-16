@@ -14,7 +14,8 @@ export class BookListComponent implements OnInit {
   size = 10;
 
   ngOnInit() {
-    this.findAllBooks()
+    console.log("INIT");
+    this.findAllBooks();
   }
 
   constructor(
@@ -30,6 +31,7 @@ export class BookListComponent implements OnInit {
     }).subscribe({
       next: (books) => {
         this.bookResponse = books;
+        console.log(books.content);
       }
     });
   }
