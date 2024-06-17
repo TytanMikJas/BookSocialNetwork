@@ -66,15 +66,27 @@ export class MyBooksComponent implements OnInit {
     return this.page == this.bookResponse.totalPages as number - 1;
   }
 
-  archiveBook($event: BookResponse) {
-
+  archiveBook(book: BookResponse) {
+    this.bookService.updateArchivedStatus({
+      'book-id': book.id as number
+    }).subscribe({
+      next: () => {
+        book.archived = !book.archived;
+      }
+    })
   }
 
-  shareBook($event: BookResponse) {
-
+  shareBook(book: BookResponse) {
+    this.bookService.updateShareableStatus({
+      "book-id": book.id as number
+    }).subscribe({
+      next: () => {
+        book.shareable = !book.shareable;
+      }
+    });
   }
 
-  editBook($event: BookResponse) {
-    this.router.navigate(['/books/manage', $event.id]);
+  editBook(book: BookResponse) {
+    this.router.navigate(['/books/manage', book.id]);
   }
 }

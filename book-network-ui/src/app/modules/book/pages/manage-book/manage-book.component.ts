@@ -36,6 +36,9 @@ export class ManageBookComponent implements OnInit {
             title: book.title as string,
             shareable: book.shareable
           }
+          if (book.cover) {
+            this.selectedPicture = 'data:image/jpeg;base64,' + book.cover;
+          }
         }
       })
     }
