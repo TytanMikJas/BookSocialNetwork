@@ -11,7 +11,7 @@ import {PageResponseBookResponse} from "../../../../services/models/page-respons
 export class BookListComponent implements OnInit {
   bookResponse: PageResponseBookResponse = {};
   page = 0;
-  size = 10;
+  size = 1;
 
   ngOnInit() {
     console.log("INIT");
@@ -35,4 +35,34 @@ export class BookListComponent implements OnInit {
       }
     });
   }
+
+  goToFirstPage() {
+    this.page = 0;
+    this.findAllBooks();
+  }
+
+  goToPreviousPage() {
+    this.page--;
+    this.findAllBooks();
+  }
+
+  goToPage(index: number) {
+    this.page = index;
+    this.findAllBooks();
+  }
+
+  goToNextPage() {
+    this.page++;
+    this.findAllBooks();
+  }
+
+  goToLastPage() {
+    this.page = this.bookResponse.totalPages as number - 1;
+    this.findAllBooks();
+  }
+
+  get isLastPage(): boolean {
+    return this.page == this.bookResponse.totalPages as number - 1;
+  }
+
 }
