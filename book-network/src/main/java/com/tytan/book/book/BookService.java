@@ -204,7 +204,7 @@ public class BookService {
 
         User user = ((User) connectedUser.getPrincipal());
 
-        if (Objects.equals(book.getOwner().getId(), user.getId())) {
+        if (!Objects.equals(book.getOwner().getId(), user.getId())) {
             throw new OperationNotPermittedException("You can not borrow your own book!");
         }
 

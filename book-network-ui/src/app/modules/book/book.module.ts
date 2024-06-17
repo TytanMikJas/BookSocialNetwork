@@ -10,6 +10,7 @@ import { RatingComponent } from './components/rating/rating.component';
 import { MyBooksComponent } from './pages/my-books/my-books.component';
 import { ManageBookComponent } from './pages/manage-book/manage-book.component';
 import {FormsModule} from "@angular/forms";
+import { ReturnedBooksComponent } from './pages/returned-books/returned-books.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import {FormsModule} from "@angular/forms";
     BookCardComponent,
     RatingComponent,
     MyBooksComponent,
-    ManageBookComponent
+    ManageBookComponent,
+    ReturnedBooksComponent
   ],
   exports: [
     RatingComponent
