@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="Return borrowed book implemented">
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/pages/returned-books/returned-books.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/pages/returned-books/returned-books.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/pages/returned-books/returned-books.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/pages/returned-books/returned-books.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/book-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/book-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/book.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/book.module.ts" afterDir="false" />
-    </list>
+    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="Added authGuard to the app" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +200,7 @@
       <workItem from="1718457161198" duration="75000" />
       <workItem from="1718457298269" duration="5376000" />
       <workItem from="1718462907033" duration="23691000" />
-      <workItem from="1718614655750" duration="12513000" />
+      <workItem from="1718614655750" duration="13376000" />
     </task>
     <task id="LOCAL-00001" summary="Init of Book social network project">
       <option name="closed" value="true" />
@@ -450,7 +442,31 @@
       <option name="project" value="LOCAL" />
       <updated>1718632708928</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Implemented accepting return + bugfix for backend">
+      <option name="closed" value="true" />
+      <created>1718633845747</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1718633845747</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Added authGuard to the app">
+      <option name="closed" value="true" />
+      <created>1718634335425</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1718634335425</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Added authGuard to the app">
+      <option name="closed" value="true" />
+      <created>1718634341423</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1718634341423</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,8 +485,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Implemented the authentication flow" />
-    <MESSAGE value="Clean error logging" />
     <MESSAGE value="finished database structure" />
     <MESSAGE value="saveBook, findBookById, findAllBooks, findAllBooksByOwner implemented for Book Controller" />
     <MESSAGE value="FindBorrowedBooks, findALlReturnedBooks, updateShareableStatus, updateArchivedStatus" />
@@ -494,6 +508,8 @@
     <MESSAGE value="implemented adding a book and editing it" />
     <MESSAGE value="impl of share + archive" />
     <MESSAGE value="Return borrowed book implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Return borrowed book implemented" />
+    <MESSAGE value="Implemented accepting return + bugfix for backend" />
+    <MESSAGE value="Added authGuard to the app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added authGuard to the app" />
   </component>
 </project>
