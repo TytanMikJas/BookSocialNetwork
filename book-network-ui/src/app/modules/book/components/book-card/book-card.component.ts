@@ -11,27 +11,11 @@ export class BookCardComponent {
   private _manage = false;
 
   @Output() private share: EventEmitter<BookResponse> = new EventEmitter<BookResponse>();
-  @Output() private edit: EventEmitter<BookResponse> = new EventEmitter<BookResponse>();
   @Output() private archive: EventEmitter<BookResponse> = new EventEmitter<BookResponse>();
-  @Output() private borrow: EventEmitter<BookResponse> = new EventEmitter<BookResponse>();
   @Output() private addToWaitingList: EventEmitter<BookResponse> = new EventEmitter<BookResponse>();
+  @Output() private borrow: EventEmitter<BookResponse> = new EventEmitter<BookResponse>();
+  @Output() private edit: EventEmitter<BookResponse> = new EventEmitter<BookResponse>();
   @Output() private details: EventEmitter<BookResponse> = new EventEmitter<BookResponse>();
-
-  onShowDetails() {
-    this.details.emit(this._book)
-  }
-
-  onBorrow() {
-    this.borrow.emit(this._book);
-  }
-
-  onAddToWaitingList() {
-    this.addToWaitingList.emit(this._book);
-  }
-
-  onEdit() {
-    this.edit.emit(this._book);
-  }
 
   onShare() {
     this.share.emit(this._book);
@@ -39,6 +23,22 @@ export class BookCardComponent {
 
   onArchive() {
     this.archive.emit(this._book);
+  }
+
+  onAddToWaitingList() {
+    this.addToWaitingList.emit(this._book);
+  }
+
+  onBorrow() {
+    this.borrow.emit(this._book);
+  }
+
+  onEdit() {
+    this.edit.emit(this._book);
+  }
+
+  onShowDetails() {
+    this.details.emit(this._book);
   }
 
   get book(): BookResponse {
@@ -61,6 +61,7 @@ export class BookCardComponent {
     return this._manage;
   }
 
+  @Input()
   set manage(value: boolean) {
     this._manage = value;
   }
