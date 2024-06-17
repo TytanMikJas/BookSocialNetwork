@@ -16,28 +16,34 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        component: BookListComponent
+        component: BookListComponent,
+        canActivate: [authGuard]
       },
       {
         path: 'my-books',
-        component: MyBooksComponent
+        component: MyBooksComponent,
+        canActivate: [authGuard]
       },
       {
         path: 'manage',
-        component: ManageBookComponent
+        component: ManageBookComponent,
+        canActivate: [authGuard]
       }
       ,
       {
         path: 'manage/:bookId',
-        component: ManageBookComponent
+        component: ManageBookComponent,
+        canActivate: [authGuard]
       },
       {
         path: 'my-borrowed-books',
-        component: BorrowedBookListComponent
+        component: BorrowedBookListComponent,
+        canActivate: [authGuard]
       },
       {
         path: "my-returned-books",
-        component: ReturnedBooksComponent
+        component: ReturnedBooksComponent,
+        canActivate: [authGuard]
       }
     ]
   }
