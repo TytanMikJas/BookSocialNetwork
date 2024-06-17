@@ -22,6 +22,9 @@ import {FormsModule} from "@angular/forms";
     MyBooksComponent,
     ManageBookComponent
   ],
+  exports: [
+    RatingComponent
+  ],
   imports: [
     CommonModule,
     BookRoutingModule,

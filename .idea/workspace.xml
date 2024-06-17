@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="implemented adding a book and editing it">
+    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="impl of share + archive">
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/pages/borrowed-book-list/borrowed-book-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/pages/borrowed-book-list/borrowed-book-list.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/pages/borrowed-book-list/borrowed-book-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/pages/borrowed-book-list/borrowed-book-list.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/components/book-card/book-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/components/book-card/book-card.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/pages/manage-book/manage-book.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/pages/manage-book/manage-book.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/pages/my-books/my-books.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/pages/my-books/my-books.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/book-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/book-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/book.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/book.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +106,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ\Projects\book-social-network\book-network-ui\src\app\modules\book\pages" />
       <recent name="D:\IntelliJ\Projects\book-social-network\book-network-ui\src" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -204,7 +210,7 @@
       <workItem from="1718457161198" duration="75000" />
       <workItem from="1718457298269" duration="5376000" />
       <workItem from="1718462907033" duration="23691000" />
-      <workItem from="1718614655750" duration="8725000" />
+      <workItem from="1718614655750" duration="11418000" />
     </task>
     <task id="LOCAL-00001" summary="Init of Book social network project">
       <option name="closed" value="true" />
@@ -430,7 +436,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718626957432</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="impl of share + archive">
+      <option name="closed" value="true" />
+      <created>1718627607264</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1718627607264</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +463,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="User, Role and Token classes created with basic repositories" />
     <MESSAGE value="JWT Security implementation" />
     <MESSAGE value="Implemented the authentication flow" />
     <MESSAGE value="Clean error logging" />
@@ -474,6 +487,7 @@
     <MESSAGE value="Navigation implemented" />
     <MESSAGE value="implemented my-books page" />
     <MESSAGE value="implemented adding a book and editing it" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented adding a book and editing it" />
+    <MESSAGE value="impl of share + archive" />
+    <option name="LAST_COMMIT_MESSAGE" value="impl of share + archive" />
   </component>
 </project>
