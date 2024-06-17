@@ -75,6 +75,6 @@ export class MyBooksComponent implements OnInit {
   }
 
   editBook($event: BookResponse) {
-
+    this.router.navigate(['/books/manage', $event.id]);
   }
 }

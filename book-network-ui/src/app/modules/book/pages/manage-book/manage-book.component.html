@@ -1,0 +1,63 @@
+<div class="p-2">
+  <h3>Manage the book</h3>
+  <hr>
+  <div class="alert alert-danger mt-2" role="alert"  *ngIf="errorMsg.length">
+    <p class="p-0 m-0" *ngFor="let msg of errorMsg;">{{msg}}</p>
+  </div>
+  <div class="d-flex gap-2">
+    <div class="col-3">
+      <img alt='...' [src]="selectedPicture || 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAIAAADTED8xAAADMElEQVR4nOzVwQnAIBQFQYXff81RUkQCOyDj1YOPnbXWPmeTRef+/3O/OyBjzh3CD95BfqICMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMK0CMO0TAAD//2Anhf4QtqobAAAAAElFTkSuQmCC'" class="rounded-1" height="100%" width="100%" />
+      <div class="mt-2">
+        <input
+          (change)="onFileSelected($event)"
+          class="form-control"
+          type="file"
+          id="formFile"
+          accept="image/*"
+        >
+      </div>
+    </div>
+    <div class="col-9">
+      <form class="row g-3">
+        <div class="col-12">
+          <label for="title" class="form-label">
+            Title
+          </label>
+          <input [(ngModel)]="bookRequest.title" type="text" name="title" class="form-control" id="title" placeholder="Your book title">
+        </div>
+        <div class="col-6">
+          <label for="author" class="form-label">
+            Author name
+          </label>
+          <input [(ngModel)]="bookRequest.authorName" type="text" name="author" class="form-control" id="author" placeholder="The author">
+        </div>
+        <div class="col-6">
+          <label for="isbn" class="form-label">
+            ISBN
+          </label>
+          <input [(ngModel)]="bookRequest.isbn" type="text" name="isbn" class="form-control" id="isbn" placeholder="ISBN">
+        </div>
+        <div class="col-12">
+          <label for="synopsis" class="form-label">
+            Synopsis
+          </label>
+          <textarea [(ngModel)]="bookRequest.synopsis" rows="4" name="synopsis" class="form-control" id="synopsis" placeholder="Book description">
+          </textarea>
+        </div>
+        <div class="col-12">
+          <input [(ngModel)]="bookRequest.shareable"  class="form-check-input" name="shareable" type="checkbox" id="share">
+          <label for="share" class="form-check-label">&nbsp;Share me?</label>
+        </div>
+        <div class="d-flex justify-content-end gap-2 col-12">
+          <button (click)="saveBook()" type="submit" class="btn btn-outline-primary">
+            <i class="fas fa-save"></i>&nbsp;Save
+          </button>
+          <a routerLink="/books/my-books" class="btn btn-link text-danger">
+            <i class="fas fa-times me-1"></i>Cancel
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>

@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="Navigation implemented">
+    <list default="true" id="aaeb74cd-aff1-4c9a-b8a3-de2a5c28f38c" name="Changes" comment="implemented my-books page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/book-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/book-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/book.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/book.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/components/book-card/book-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/components/book-card/book-card.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/components/menu/menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/components/menu/menu.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/pages/book-list/book-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/pages/book-list/book-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/pages/book-list/book-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/pages/book-list/book-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/pages/my-books/my-books.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-network-ui/src/app/modules/book/pages/my-books/my-books.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/book/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-network/src/main/java/com/tytan/book/book/BookMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +205,7 @@
       <workItem from="1718457161198" duration="75000" />
       <workItem from="1718457298269" duration="5376000" />
       <workItem from="1718462907033" duration="23691000" />
-      <workItem from="1718614655750" duration="4996000" />
+      <workItem from="1718614655750" duration="7985000" />
     </task>
     <task id="LOCAL-00001" summary="Init of Book social network project">
       <option name="closed" value="true" />
@@ -417,7 +415,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718622017751</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="implemented my-books page">
+      <option name="closed" value="true" />
+      <created>1718624042224</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1718624042224</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +442,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Init of Book social network project" />
     <MESSAGE value="git ignore added" />
     <MESSAGE value="User, Role and Token classes created with basic repositories" />
     <MESSAGE value="JWT Security implementation" />
@@ -461,6 +466,7 @@
     <MESSAGE value="implementation of interceptor for JWT token" />
     <MESSAGE value="Extended book cards and initialized 6 functions that can be used on book" />
     <MESSAGE value="Navigation implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navigation implemented" />
+    <MESSAGE value="implemented my-books page" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented my-books page" />
   </component>
 </project>
